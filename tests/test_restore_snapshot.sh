@@ -51,9 +51,9 @@ echo "Script location: $SCRIPT_TO_TEST"
 
 # Verify the script executed successfully
 if [ $? -eq 0 ]; then
-    echo "✅ Test passed: Snapshot restoration script executed successfully"
+    echo "âœ… Test passed: Snapshot restoration script executed successfully"
 else
-    echo "❌ Test failed: Snapshot restoration script failed"
+    echo "âŒ Test failed: Snapshot restoration script failed"
     exit 1
 fi
 

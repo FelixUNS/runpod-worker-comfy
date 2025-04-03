@@ -55,14 +55,14 @@ Read our article here: https://blib.la/blog/comfyui-on-runpod
 
 ## Quickstart
 
-- 🐳 Choose one of the five available images for your serverless endpoint:
+- ðŸ³ Choose one of the five available images for your serverless endpoint:
   - `timpietruskyblibla/runpod-worker-comfy:3.4.0-base`: doesn't contain anything, just a clean ComfyUI
   - `timpietruskyblibla/runpod-worker-comfy:3.4.0-flux1-schnell`: contains the checkpoint, text encoders and VAE for [FLUX.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell)
   - `timpietruskyblibla/runpod-worker-comfy:3.4.0-flux1-dev`: contains the checkpoint, text encoders and VAE for [FLUX.1 dev](https://huggingface.co/black-forest-labs/FLUX.1-dev)
   - `timpietruskyblibla/runpod-worker-comfy:3.4.0-sdxl`: contains the checkpoint and VAE for [Stable Diffusion XL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
   - `timpietruskyblibla/runpod-worker-comfy:3.4.0-sd3`: contains the checkpoint for [Stable Diffusion 3 medium](https://huggingface.co/stabilityai/stable-diffusion-3-medium)
-- ℹ️ [Use the Docker image on RunPod](#use-the-docker-image-on-runpod)
-- 🧪 Pick an [example workflow](./test_resources/workflows/) & [send it to your deployed endpoint](#interact-with-your-runpod-api)
+- â„¹ï¸ [Use the Docker image on RunPod](#use-the-docker-image-on-runpod)
+- ðŸ§ª Pick an [example workflow](./test_resources/workflows/) & [send it to your deployed endpoint](#interact-with-your-runpod-api)
 
 ## Features
 
@@ -181,7 +181,7 @@ The following describes which fields exist when doing requests to the API. We on
 
 An array of images, where each image should have a different name.
 
-🚨 The request body for a RunPod endpoint is 10 MB for `/run` and 20 MB for `/runsync`, so make sure that your input images are not super huge as this will be blocked by RunPod otherwise, see the [official documentation](https://docs.runpod.io/docs/serverless-endpoint-urls)
+ðŸš¨ The request body for a RunPod endpoint is 10 MB for `/run` and 20 MB for `/runsync`, so make sure that your input images are not super huge as this will be blocked by RunPod otherwise, see the [official documentation](https://docs.runpod.io/docs/serverless-endpoint-urls)
 
 | Field Name | Type   | Required | Description                                                                              |
 | ---------- | ------ | -------- | ---------------------------------------------------------------------------------------- |
